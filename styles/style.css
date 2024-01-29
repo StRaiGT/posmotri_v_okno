@@ -163,7 +163,7 @@ ol {
 }
 
 .button {
-  height: 34px;
+  padding: 6px 0;
   border: 1px solid #fff;
   color: inherit;
   font-family: inherit;
@@ -225,11 +225,7 @@ ol {
   flex-direction: column;
   height: 298px;
   padding: 0 2px 2px 2px;
-  overflow-y: auto;
-}
-
-.content__list::-webkit-scrollbar {
-  width: 0;
+  overflow: clip auto;
 }
 
 .content__list-item:not(:last-child) {
