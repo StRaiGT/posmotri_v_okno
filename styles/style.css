@@ -147,7 +147,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -158,13 +160,12 @@ ol {
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin: 1px;
   background-color: #fff;
 }
 
 .button {
-  padding: 6px 0;
   border: 1px solid #fff;
+  padding: 6px 0;
   color: inherit;
   font-family: inherit;
   font-weight: 700;
